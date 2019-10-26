@@ -192,3 +192,9 @@
     -webkit-transition: background-color 0.2s ease-out;
     -moz-transition: background-color 0.2s ease-out;
 }
+
+.checkButton:hover {
+    background-color: cyan;
+    cursor: pointer;
+    transition: 0.3;
+}
