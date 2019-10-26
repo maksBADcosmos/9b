@@ -3,55 +3,11 @@ html {
     user-select: none;
 }
 
-/* Smartphones (вертикальная и горизонтальная ориентация) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-    /* стили */
-}
-
-/* Smartphones (горизонтальная) ----------- */
-@media only screen and (min-width: 321px) {
-    .comingsoon {
-        text-align: center;
-        font-size: 50px;
-        color: white;
-        font-family: Roboto;
-        font-weight: 700;
-        padding: 400px;
-    }
-}
-
-/* Smartphones (вертикальная) ----------- */
-@media only screen and (max-width: 320px) {
-    .comingsoon {
-        text-align: center;
-        font-size: 50px;
-        color: white;
-        font-family: Roboto;
-        font-weight: 700;
-        padding: 400px;
-    }
-}
-
-/* Настольные компьютеры и ноутбуки ----------- */
-@media only screen  and (min-width: 1224px) {
-    .comingsoon {
-        text-align: center;
-        font-size: 50px;
-        color: white;
-        font-family: Roboto;
-        font-weight: 700;
-        padding: 400px;
-    }
-}
-    
-/* Большие экраны ----------- */
-@media only screen  and (min-width: 1824px) {
-    .comingsoon {
-        text-align: center;
-        font-size: 50px;
-        color: white;
-        font-family: Roboto;
-        font-weight: 700;
-        padding: 400px;
-    }
+.comingsoon {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    padding: 400px;
 }
