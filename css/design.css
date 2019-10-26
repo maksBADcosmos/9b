@@ -81,3 +81,114 @@
     color: cyan;
     transition: 0.3;
 }
+
+.view {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    justify-content: stretch;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -webkit-flex-grow: 1;
+    -webkit-flex-shrink: 0;
+    -webkit-flex-basis: auto;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+}
+
+.pagecontent {
+    width: 100%;
+}
+
+.mainHead {
+    background-color: #282c34;
+    color: #ffffff;
+}
+
+.mainHeadContent {
+    padding-top: 170px;
+    padding-bottom: 120px;
+}
+
+.mainHeadLayer1 {
+    position: relative;
+}
+
+.mainHeadLayer2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    color: #61dafb;
+    text-align: center;
+    margin: 0;
+    font-size: 45px;
+    letter-spacing: 0.01em;
+}
+
+.undertitle {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    font-weight: 200;
+}
+
+.mainHeadFinal {
+    padding-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+}
+
+.final {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -webkit-flex-grow: 0;
+    -webkit-flex-shrink: 1;
+    -webkit-flex-basis: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+}
+
+.checkButton {
+    display: inline-block;
+    font-size: 16px;
+    background-color: #61dafb;
+    color: #000000;
+    padding: 10px 25px;
+    white-space: nowrap;
+    transition: background-color 0.2s ease-out;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+}
