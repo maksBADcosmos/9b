@@ -44,7 +44,6 @@
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     height: 100%;
-    width: 100%;
     scrollbar-width: none;
     -ms-overflow-style: none;
     -webkit-flex: 1;
@@ -75,4 +74,10 @@
     -webkit-align-items: center;
     -webkit-transition: color 0.2s ease-out;
     -moz-transition: color 0.2s ease-out;
+    transition: 0.3s;
+}
+
+.navLink:hover {
+    color: cyan;
+    transition: 0.3;
 }

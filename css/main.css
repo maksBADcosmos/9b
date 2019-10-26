@@ -54,12 +54,6 @@ a {
     }
 }
 
-@media (min-width: 600px) {
-    .navContent {
-        width: calc(100% / 6);
-    }
-}
-
 @media (min-width: 1280px) {
     .navLink {
         padding-left: 20px;
