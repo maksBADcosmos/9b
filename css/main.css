@@ -1,12 +1,69 @@
 html {
-    background: black;
-    user-select: none;
+    display: block;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.15;
 }
 
-.comingsoon {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+head {
+    display: none;
+}
+
+body {
+    display: block;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+}
+
+header {
+    display: block;
+}
+
+img {
+    display: inline-block;
+    vertical-align: top;
+    border-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+@media (min-width: 1340px) {
+    .navi {
+        max-width: 1260px;
+    }
+}
+
+@media (min-width: 780px) {
+    .navi {
+        width: 90%;
+    }
+}
+
+@media (min-width: 600px) {
+    .navContent {
+        width: calc(100% / 6);
+    }
+}
+
+@media (min-width: 1280px) {
+    .navLink {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+    }
 }
