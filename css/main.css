@@ -1,0 +1,54 @@
+/* Smartphones (вертикальная и горизонтальная ориентация) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    /* стили */
+}
+
+/* Smartphones (горизонтальная) ----------- */
+@media only screen and (min-width: 321px) {
+    html {
+        background: black;
+        user-select: none;
+    }
+    
+    .comingsoon {
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        font-family: Roboto;
+        font-weight: 700;
+        padding: 400px;
+    }
+}
+
+/* Smartphones (вертикальная) ----------- */
+@media only screen and (max-width: 320px) {
+    html {
+        background: black;
+        user-select: none;
+    }
+    
+    html p {
+        text-align: center;
+        font-size: 100px;
+        color: white;
+        font-family: Roboto;
+        justify-content: center;
+        display: flex;
+        font-weight: 700;
+        align-items: center;
+    }
+}
+
+/* Настольные компьютеры и ноутбуки ----------- */
+@media only screen  and (min-width: 1224px) {
+    html p {
+        content: 'privet';
+    }
+}
+    
+/* Большие экраны ----------- */
+@media only screen  and (min-width: 1824px) {
+    html p {
+        content: 'privet';
+    }
+}
