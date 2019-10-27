@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
 .navigationbar {
     background-color: #20232a;
     color: #ffffff;
@@ -32,6 +34,7 @@
 }
 
 .navLinks {
+    position: relative;
     flex: 1;
     display: -webkit-box;
     display: -moz-box;
@@ -44,6 +47,7 @@
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     height: 100%;
+    left: 3%;
     scrollbar-width: none;
     -ms-overflow-style: none;
     -webkit-flex: 1;
@@ -144,7 +148,7 @@
     text-align: center;
     font-size: 24px;
     letter-spacing: 0.01em;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .mainHeadFinal {
