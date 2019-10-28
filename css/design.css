@@ -202,3 +202,34 @@
     cursor: pointer;
     transition: 0.3;
 }
+
+.quotesBlock {
+    display: flex !important;
+    text-align: center;
+    flex-direction: row !important;
+    box-sizing: border-box;
+    margin-top: 30px !important;
+    padding: 150px;
+}
+
+.platon_quote, .ondatra_quote, .egor_quote {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+}
+
+.itsFlex {
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.flexText {
+	margin-top: 10px;
+	font-size: 20px;
+	color: #6B6B6B;
+	white-space: normal;
+}
