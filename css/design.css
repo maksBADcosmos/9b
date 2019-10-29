@@ -204,16 +204,17 @@
 }
 
 .quotesBlock {
-    display: flex !important;
+    display: flex;
     text-align: center;
     flex-direction: row !important;
     box-sizing: border-box;
-    margin-top: 30px !important;
+    margin-top: 50px !important;
     padding: 150px;
 }
 
 .platon_quote, .ondatra_quote, .egor_quote {
     position: relative;
+    margin-top: 50px;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
