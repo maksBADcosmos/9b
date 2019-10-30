@@ -89,3 +89,17 @@
         padding: 0px;
     }
 }
+
+@media (min-width: 1340px) {
+    .quotesBlock {
+        display: flex;
+        padding: 150px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .quotesBlock {
+        display: flex;
+        padding: 150px;
+    }
+}

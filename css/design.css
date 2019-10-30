@@ -229,8 +229,8 @@
 }
 
 .flexText {
-	margin-top: 10px;
+	margin-top: 15px;
 	font-size: 20px;
 	color: #6B6B6B;
-	white-space: inherit;
+	text-align: center;
 }
