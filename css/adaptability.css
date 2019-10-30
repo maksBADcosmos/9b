@@ -20,7 +20,7 @@
 
 @media (min-width: 1280px) {
     .mainHeadContent {
-        padding-top: 95px;
+        padding-top: 20px;
         padding-bottom: 85px;
         max-width: 1500px;
         margin-left: auto;
@@ -31,8 +31,8 @@
 
 @media (min-width: 600px) {
     .mainHeadContent {
-        padding-top: 60px;
-        padding-bottom: 70px;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 }
 
