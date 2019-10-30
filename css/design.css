@@ -133,6 +133,7 @@
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+	padding-top: 50px;
 }
 
 .title {
@@ -208,8 +209,7 @@
     text-align: center;
     flex-direction: row !important;
     box-sizing: border-box;
-    margin-top: 50px !important;
-    padding: 150px;
+    padding: 50px;
 }
 
 .platon_quote, .ondatra_quote, .egor_quote {
